@@ -7,8 +7,9 @@
 */
 
 // Import the Hypothesis shared pipeline library, which is defined in this
-// repo: https://github.com/hypothesis/pipeline-library
-@Library("pipeline-library") _
+// production repo: https://github.com/hypothesis/pipeline-library
+// testing repo: https://github.com/hypothesis/ci-testing-library
+@Library("ci-testing-library") _
 
 stage('hello') {
     sayHello('Indigo')
